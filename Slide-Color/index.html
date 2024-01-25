@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Configuración de la pagina -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link del css -->
+    <link rel="stylesheet" href="estilo.css" />
+
+    <!-- Título de la página -->
+    <title>Color RGB</title>
+  </head>
+
+  <body>
+    <!-- Contenedor principal de la página -->
+    <div class="contenedor-principal">
+      <!-- Contenedor interno para organizar los elementos -->
+      <div class="contenedor-interno">
+        
+        <!-- Sección para el control del color Rojo (R) -->
+        <div class="color">
+          <label for="rojo">Rojo (R)</label>
+          <!-- Control deslizante para ajustar el valor del color Rojo -->
+          <input id="rojo" type="range" min="0" max="255" value="23" step="1" />
+          <!-- Texto para mostrar el valor actual del color Rojo -->
+          <p id="texto-rojo"></p>
+        </div>
+
+        <!-- Sección para el control del color Verde (G) -->
+        <div class="color">
+          <label for="verde">Verde (G)</label>
+          <!-- Control deslizante para ajustar el valor del color Verde -->
+          <input id="verde" type="range" min="0" max="255" value="41" step="1" />
+          <!-- Texto para mostrar el valor actual del color Verde -->
+          <p id="texto-verde"></p>
+        </div>
+
+        <!-- Sección para el control del color Azul (B) -->
+        <div class="color">
+          <label for="azul">Azul (B)</label>
+          <!-- Control deslizante para ajustar el valor del color Azul -->
+          <input id="azul" type="range" min="0" max="255" value="56" step="1" />
+          <!-- Texto para mostrar el valor actual del color Azul -->
+          <p id="texto-azul"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Javascript app.js -->
+    <script src="app.js"></script>
+  </body>
+</html>

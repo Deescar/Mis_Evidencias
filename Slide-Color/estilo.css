@@ -1,0 +1,50 @@
+/* Estilos generales para resetear márgenes y rellenos en la pagina */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos del cuerpo de la página */
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center; /* Centrar los objetos */
+  text-align: center;
+  background-color: rgb(233, 240, 245); /* Fondo de la página */
+}
+
+/* Estilos para los contenedores */
+
+.contenedor-principal {
+  width: 50vw;
+  max-width: 600px;
+  min-height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white; /* Fondo del contenedor principal */
+  border-radius: 50px; /* Bordes redondeados */
+}
+/* Estilo para las opciones de colores */
+.color {
+  padding: 20px;
+  margin: 10px;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif; /* Tipo de fuente */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; /* Centrar los objetos */
+}
+
+/* Estilos para etiquetas y Textos dentro de los contenedores de color */
+
+label,
+p {
+  margin: 20px;
+}
